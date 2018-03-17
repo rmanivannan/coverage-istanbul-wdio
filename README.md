@@ -52,6 +52,8 @@ Start Selenium Standalone
 ```
 selenium-standalone start
 ```
+## Run this code on your local
+After installing above list, open new terminal window and run `bash ci_build.sh`
 
 ## Reference
 https://medium.com/@the1mills/front-end-javascript-test-coverage-with-istanbul-selenium-4b2be44e3e98
