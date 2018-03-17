@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1521303875091" clover="3.2.0">
+	<project timestamp="1521303875091"  name="All Files" >
+		<metrics statements="4"  coveredstatements="4"  conditionals="4"  coveredconditionals="2"  methods="1"  coveredmethods="1"  elements="9"  coveredelements="7"  complexity="0"  packages="1"  files="1"  classes="1"  loc="7"  ncloc="7" />
+		<package name="test" >
+			<metrics statements="4"  coveredstatements="4"  conditionals="4"  coveredconditionals="2"  methods="1"  coveredmethods="1" />
+			<file name="web.js"  path="/Users/mani/work/coverage-istanbul-wdio/test/web.js" >
+				<metrics statements="4"  coveredstatements="4"  conditionals="4"  coveredconditionals="2"  methods="1"  coveredmethods="1" />
+				<line num="1"  count="1"  type="stmt" />
+				<line num="2"  count="1"  type="stmt" />
+				<line num="5"  count="1"  type="stmt" />
+				<line num="7"  count="1"  type="cond"  truecount="2"  falsecount="2" />
+			</file>
+		</package>
+	</project>
+</coverage>

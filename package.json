@@ -1,0 +1,19 @@
+{
+  "name": "webdriver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio",
+    "inst": "istanbul instrument test/web.js --output  test/web.inst.js --embed-source true",
+    "report": "node reporter.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "wdio-mocha-framework": "^0.5.13",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "^0.1.4"
+  }
+}
