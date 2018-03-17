@@ -57,5 +57,7 @@ After installing above list, open new terminal window and run `bash ci_build.sh`
 
 ## Reference
 https://medium.com/@the1mills/front-end-javascript-test-coverage-with-istanbul-selenium-4b2be44e3e98
+
 https://github.com/gotwarlost/istanbul/issues/132
+
 https://www.youtube.com/watch?v=vPes7NKeYno
