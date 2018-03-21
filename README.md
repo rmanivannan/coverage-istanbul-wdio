@@ -53,7 +53,33 @@ Start Selenium Standalone
 selenium-standalone start
 ```
 ## Run this code on your local
-After installing above list, open new terminal window and run `bash ci_build.sh`
+After installing above list, open new terminal window and run `bash ci_build.sh` or run below command step by step
+
+```
+# Remove auto generated files
+rm -rf coverage/
+
+#Generate instrument code
+#istanbul instrument test/web.js --output  test/web.inst.js --embed-source true
+#(or)
+npm run inst
+
+
+mkdir coverage
+
+#Run WDIO test 
+#wdio
+#(or)
+npm run test
+
+#generate report 
+#node reporter.js
+#(or)
+npm run report
+
+#Open Coverage report on browser
+open coverage/lcov-report/index.html 
+```
 
 ## Reference
 https://medium.com/@the1mills/front-end-javascript-test-coverage-with-istanbul-selenium-4b2be44e3e98
