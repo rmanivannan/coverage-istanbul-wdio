@@ -4,7 +4,7 @@ Sample code-base to generate test coverage with integration testing using WDIO(W
 
 ## Highlevel understanding
 
-1. Generate instrument code using command:`istanbul instrument`
+1. Generate instrument code using command:`istanbul instrument`, incase of ES6/7 `babel-plugin-istanbul` would help to generate instrumented code. 
 
 ```
 istanbul instrument test/web.js --output  test/web.inst.js --embed-source true
