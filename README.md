@@ -14,13 +14,14 @@ npm run inst
 
 2. Link instrumented js with web applucation instead of actual code
 3. Run integration testing using WDIO 
-4. Save `coverage.json` by executing script on web app `window.__coverage__`
+4. Save `coverage.json` by executing script `window.__coverage__` on browser contest, if we have multiple instance running through different test specs then we have to save multiple `coverage-<name>.json`
+
 ```
 wdio
 (or)
 npm run test
 ```
-5. Generate viewable report `coverage/lcov-report/index.html` from `coverage.json` by using `istanbul report`
+5. Generate viewable report `coverage/lcov-report/index.html` from `coverage.json` by using `istanbul report`, if we have multiple `coverage-<name>.json` then we have to use `istanbul-combine` generate viewable report.
 ```
 node reporter.js
 (or)
@@ -83,6 +84,12 @@ open coverage/lcov-report/index.html
 ```
 
 ## Reference
+
+https://github.com/gotwarlost/istanbul
+
+https://github.com/istanbuljs/babel-plugin-istanbul
+
+https://github.com/jamestalmage/istanbul-combine
 
 https://medium.com/@the1mills/front-end-javascript-test-coverage-with-istanbul-selenium-4b2be44e3e98
 
