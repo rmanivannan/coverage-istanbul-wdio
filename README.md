@@ -26,7 +26,9 @@ node reporter.js
 (or)
 npm run report
 ```
-5. Open Coverage report on browser `open coverage/lcov-report/index.html`
+6. Open Coverage report on browser `open coverage/lcov-report/index.html`
+
+
 
 
 ## Installation
@@ -59,31 +61,34 @@ After installing above list, open new terminal window and run `bash ci_build.sh`
 # Remove auto generated files
 rm -rf coverage/
 
-#Generate instrument code
-#istanbul instrument test/web.js --output  test/web.inst.js --embed-source true
-#(or)
+# Generate instrument code
+# istanbul instrument test/web.js --output  test/web.inst.js --embed-source true
+# (or)
 npm run inst
-
 
 mkdir coverage
 
-#Run WDIO test 
-#wdio
-#(or)
+# Run WDIO test 
+# wdio
+# (or)
 npm run test
 
-#generate report 
-#node reporter.js
-#(or)
+# generate report 
+# node reporter.js
+# (or)
 npm run report
 
-#Open Coverage report on browser
+# Open Coverage report on browser
 open coverage/lcov-report/index.html 
 ```
 
 ## Reference
+
 https://medium.com/@the1mills/front-end-javascript-test-coverage-with-istanbul-selenium-4b2be44e3e98
 
 https://github.com/gotwarlost/istanbul/issues/132
 
 https://www.youtube.com/watch?v=vPes7NKeYno
+
+
+ta ta taaa - the end - https://www.youtube.com/watch?v=2xNj3ZFDjDo
