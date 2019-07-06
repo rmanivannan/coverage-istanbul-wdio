@@ -58,10 +58,10 @@ selenium-standalone start
 ## Installation issues & Fixes
 
 Selenium standlone installation issue & FIX
-    1. `sudo sh` 
-    2. `export NODE_TLS_REJECT_UNAUTHORIZED=0` 
-    3. install `./node_modules/.bin/selenium-standalone install`
-    4. start Selenium standlone `./node_modules/.bin/selenium-standalone start`
+1. `sudo sh` 
+2. `export NODE_TLS_REJECT_UNAUTHORIZED=0` 
+3. install `./node_modules/.bin/selenium-standalone install`
+4. start Selenium standlone `./node_modules/.bin/selenium-standalone start`
 
 
 ## Run this code on your local
