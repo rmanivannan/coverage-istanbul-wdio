@@ -1,4 +1,4 @@
-# Front-end JavaScript Functional test(end to end test) coverage with Istanbul and WebDriverIO (Selenium)
+# Front-end JavaScript Functional test(end to end test) code coverage with Istanbul and WebDriverIO (Selenium)
 
 Sample code-base to generate test coverage with integration testing using WDIO(WebDriverIO)
 
